@@ -12,7 +12,7 @@ module "flavors" {
 }
 
 module "images" {
-  source = "git::https://github.com/30665161a/kypo-crp-tf-module-kypo-images.git?ref=v1.1.2"
+  source = "git::https://github.com/30665161a/kypo-crp-tf-module-kypo-images.git"
 }
 
 module "openstack_base" {
